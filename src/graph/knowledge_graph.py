@@ -1,7 +1,7 @@
 from neo4j import GraphDatabase
 
 class KnowledgeGraph:
-    def __init__(self, uri="bolt://localhost:7687", user="neo4j", password="Node_Cool11"):
+    def __init__(self, uri="bolt://localhost:7687", user="neo4j", password="**Start**"):
         """Initializes the connection to Neo4j Desktop."""
         self.driver = GraphDatabase.driver(uri, auth=(user, password))
 
